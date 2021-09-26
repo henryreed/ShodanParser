@@ -20,7 +20,4 @@ optional arguments:
   --exclude-country EXCLUDE_COUNTRY [EXCLUDE_COUNTRY ...]
                         List countries to exclude. For example: CH, RU, UK
                         would be China, Russia and the United Kingdom
-
-Process finished with exit code 0
-
 ```
