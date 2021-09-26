@@ -18,6 +18,6 @@ positional arguments:
 optional arguments:
   -h, --help            show this help message and exit
   --exclude-country EXCLUDE_COUNTRY [EXCLUDE_COUNTRY ...]
-                        List countries to exclude. For example: CH, RU, UK
+                        List countries to exclude. For example: CN, RU, UK
                         would be China, Russia and the United Kingdom
 ```

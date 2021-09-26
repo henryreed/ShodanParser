@@ -7,7 +7,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Pulls IP addresses from a Shodan JSON and optionally excludes IPs '
                                                  'from specified countries.')
     parser.add_argument('file', metavar='[JSON file]', type=str, nargs=1, help='Location of the Shodan JSON file')
-    parser.add_argument('--exclude-country', nargs='+', default=[], help='List countries to exclude. For example: CH, '
+    parser.add_argument('--exclude-country', nargs='+', default=[], help='List countries to exclude. For example: CN, '
                                                                          'RU, UK would be China, Russia and the '
                                                                          'United Kingdom')
     args = parser.parse_args()
